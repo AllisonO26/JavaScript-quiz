@@ -1,0 +1,61 @@
+# 1. Name at least three of the primitive data types in Javascript.
+Answer: Boolean, string, numbers.
+
+# 2. Name one non-primitive data type.
+Answer: object.
+
+# 3. What is the difference between a function parameter and a function argument?
+Answer: A parameter is part of function as an argument is what is used when the function plays out
+
+# 4. Write at least 3 of the comparison operators in Javascript.
+Answer: =>, =<, ==.
+
+# 5. Name 3 keywords that can be used to declare a variable.
+Answer: Let, var, const.
+
+# 6. Create an array called `myArray`.
+Answer: let myArray = [];
+
+# 7. Create an object called `myObject`.
+Answer: let myObject = {};
+
+# 8. Write two functions: one using the `fat arrow` syntax and one using the `function` keyword syntax.
+Answer: const func1 = () => {}
+        const func2 = function() {}
+
+# 9. Write a function that returns the number 5.
+Answer:   const func = () => {
+            return 5;
+
+# 10. Write a function that takes two numbers and returns the sum of them.
+Answer:   const func = (num1, num2) => {
+            return num1 + num2;
+          }
+
+# 11. Write a function that takes an array and returns the first index of the array.
+Answer:   const func = (array) => {
+           return array[0];
+          }
+
+# 12. Write function that takes an array of numbers and returns the sum of all of the numbers.
+Answer:   const func = (array) => {
+           return array.reduce((a, b) => a + b, 0)
+           }
+
+# 13. Create an object with two properties and show two different ways to access them.
+Answer: const myObject = {
+    propertyOne: 1,
+    propertyTwo: 2
+}  
+myObject.propertyOne;
+myObject.propertyTwo;
+
+# 14. Create a function that takes two numbers and returns the number of times that the first number is divisible by the second number.
+Answer:   const func = (num1, num2) => {
+           return Math.floor(num2 / num1);
+        }
+
+# 15. List three array methods.
+Answer: shift();
+        pop();
+        push();
